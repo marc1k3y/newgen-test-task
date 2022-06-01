@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+.App>select {
+	padding: 10px 30px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+.author {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.coursesList {
+	display: flex;
+	flex-direction: column;
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	gap: 15px;
+}
+
+.courseLine {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: lightgray;
+	border-radius: 15px;
+}
+
+.coursePrices {
+	font-weight: bold;
+}

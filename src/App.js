@@ -45,7 +45,7 @@ export const App = () => {
 					от 500 рублей
 				</option>
 				<option value="up_to_400">
-					400 рублей
+					до 400 рублей
 				</option>
 			</select>
 			<div className="coursesList">

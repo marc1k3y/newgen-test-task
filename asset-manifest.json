@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/newgen-test-task/static/css/main.d88933f0.css",
-    "main.js": "/newgen-test-task/static/js/main.7f9f9fca.js",
+    "main.js": "/newgen-test-task/static/js/main.5bf6fddc.js",
     "index.html": "/newgen-test-task/index.html",
     "main.d88933f0.css.map": "/newgen-test-task/static/css/main.d88933f0.css.map",
-    "main.7f9f9fca.js.map": "/newgen-test-task/static/js/main.7f9f9fca.js.map"
+    "main.5bf6fddc.js.map": "/newgen-test-task/static/js/main.5bf6fddc.js.map"
   },
   "entrypoints": [
     "static/css/main.d88933f0.css",
-    "static/js/main.7f9f9fca.js"
+    "static/js/main.5bf6fddc.js"
   ]
 }

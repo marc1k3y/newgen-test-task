@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/newgen-test-task/static/css/main.ec0728b3.css",
+    "main.js": "/newgen-test-task/static/js/main.05d53a3b.js",
+    "index.html": "/newgen-test-task/index.html",
+    "main.ec0728b3.css.map": "/newgen-test-task/static/css/main.ec0728b3.css.map",
+    "main.05d53a3b.js.map": "/newgen-test-task/static/js/main.05d53a3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec0728b3.css",
+    "static/js/main.05d53a3b.js"
+  ]
+}

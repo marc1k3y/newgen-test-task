@@ -56,8 +56,11 @@ export const App = () => {
 								{course.name}
 							</div>
 							<div className="coursePrices">
-								{course.prices[0] && `от ${course.prices[0]}`}
+								{(course.prices[0] || course.prices[0] === 0) &&
+									`от ${course.prices[0]}`}
 								{course.prices[1] && ` до ${course.prices[1]}`}
+								{!course.prices[0] && !course.prices[1]
+									? "цена не указана" : " руб."}
 							</div>
 						</div>)
 					: courses.map(course =>
@@ -70,7 +73,7 @@ export const App = () => {
 									`от ${course.prices[0]}`}
 								{course.prices[1] && ` до ${course.prices[1]}`}
 								{!course.prices[0] && !course.prices[1]
-									? "цена не указана" : " рублей"}
+									? "цена не указана" : " руб."}
 							</div>
 						</div>)}
 			</div>
